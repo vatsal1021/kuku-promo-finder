@@ -18,7 +18,8 @@ from promo_finder.pipeline import RunOptions, promos_csv, run_pipeline
 from promo_finder.scorer import ModelRejected
 
 SAMPLE_SCRIPTS = ROOT / "data" / "scripts"
-SAMPLE_RESULTS = ROOT / "raw_outputs"  # the processed sample show
+SAMPLE_RESULTS = ROOT / "raw_outputs"  # the processed sample show, full text (local only, not in git)
+PUBLIC_SAMPLE = ROOT / "sample_results" / "promos_ranked_public.json"  # same ranking with quoted lines removed (in git)
 APP_OUT = ROOT / "outputs" / "app_runs"
 
 MODELS = {
@@ -132,7 +133,9 @@ def load_sample() -> dict:
     """The processed sample show. Reads the saved results; never calls a model."""
     ranked = SAMPLE_RESULTS / "promos_ranked.json"
     if ranked.exists():
-        return json.loads(ranked.read_text(encoding="utf-8")) | {"source": "sample"}
+        return json.loads(ranked.read_text(encoding="utf-8")) | {"source": "sample show, full results"}
+    if PUBLIC_SAMPLE.exists():
+        return json.loads(PUBLIC_SAMPLE.read_text(encoding="utf-8")) | {"source": "sample show, public copy"}
     # Not fully processed yet: build what we can from the saved replies, in a scratch folder.
     out = APP_OUT / "sample"
     shutil.rmtree(out, ignore_errors=True)
@@ -158,7 +161,7 @@ def render_promo(p: dict, weights: RankWeights) -> None:
                             f"<span style='font-size:0.7em;color:gray'>Rank score {p['final_score']:.1f}</span>",
                             unsafe_allow_html=True, help=HELP["status"])
             st.markdown(f"**{fmt_segments(p)}** &nbsp;·&nbsp; {p['duration_seconds']:.0f}s", help=HELP["segment"])
-            st.caption(p["key_moment"], help=HELP["key_moment"])
+            st.caption(p.get("key_moment", ""), help=HELP["key_moment"])
         with scores:
             a, b, c = st.columns(3)
             with a:
@@ -168,10 +171,11 @@ def render_promo(p: dict, weights: RankWeights) -> None:
             with c:
                 score_badge("Standalone", p["standalone_score"], HELP["standalone"])
 
-        st.markdown(f"**Hook** &nbsp; {p['hook_line']}", help=HELP["hook"])
-        st.markdown(f"**Cliffhanger** &nbsp; {p['cliffhanger_line']}", help=HELP["cliffhanger"])
-        st.markdown(f"**Why it works** &nbsp; {p['why_it_works']}")
-        failed = [k for k, v in p["checks"].items() if not v]
+        if "hook_line" in p:
+            st.markdown(f"**Hook** &nbsp; {p['hook_line']}", help=HELP["hook"])
+            st.markdown(f"**Cliffhanger** &nbsp; {p['cliffhanger_line']}", help=HELP["cliffhanger"])
+            st.markdown(f"**Why it works** &nbsp; {p['why_it_works']}")
+        failed = [k for k, v in p.get("checks", {}).items() if not v]
         if failed:
             st.caption("⚠ Check failed: " + ", ".join(k.replace("_", " ") for k in failed), help=HELP["checks"])
 
@@ -191,7 +195,7 @@ def main() -> None:
             st.markdown("**1 · Screenplays**")
             uploads = st.file_uploader("Upload screenplay .txt files, one per episode", type="txt", accept_multiple_files=True,
                                        help="The timestamped screenplay format: scene headings, then CAMERA, ACTION, SOUND FX and dialogue blocks with start and end times.")
-            can_sample = (SAMPLE_RESULTS / "promos_ranked.json").exists() or (SAMPLE_SCRIPTS.exists() and (SAMPLE_RESULTS / "llm_raw").exists())
+            can_sample = (SAMPLE_RESULTS / "promos_ranked.json").exists() or PUBLIC_SAMPLE.exists() or (SAMPLE_SCRIPTS.exists() and (SAMPLE_RESULTS / "llm_raw").exists())
             if st.button("Or open the sample show (50 episodes, already processed)", disabled=not can_sample,
                          help="Shows results already computed for the sample show. Makes no API calls."):
                 st.session_state["result"] = load_sample()
@@ -277,6 +281,8 @@ def main() -> None:
         st.warning(f"{result['unscored']} candidate clips were not scored ({'dry run' if result.get('dry_run') else 'model calls failed'}).")
     if result.get("duplicate_check_error"):
         st.warning("The duplicate check did not run, so no promos are marked as duplicates.")
+    if result.get("note"):
+        st.info(result["note"])
 
     d1, d2, d3, d4, _ = st.columns([1, 1, 2, 2, 2])
     d1.download_button("Download CSV", promos_csv(promos), "promos_ranked.csv", "text/csv", use_container_width=True)

@@ -56,7 +56,7 @@ def promos_csv(promos: list[dict]) -> str:
     out = csv.DictWriter(buf, fieldnames=CSV_COLUMNS, extrasaction="ignore", lineterminator="\n")
     out.writeheader()
     for p in promos:
-        out.writerow(p | p["checks"] | {"segments": where(p)})
+        out.writerow(p | p.get("checks", {}) | {"segments": where(p)})
     return buf.getvalue()
 
 

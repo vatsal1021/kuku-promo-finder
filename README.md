@@ -63,6 +63,10 @@ Copy `.streamlit/secrets.toml.example` into the app's **Secrets** box in the Str
 | `candidates.json` | the rule-layer candidates before scoring |
 | `run_summary.json` | time taken, API calls, failed calls, tokens |
 
+## Sample results
+
+`sample_results/promos_ranked_public.json` is the ranked list for the sample show (50 episodes, Gemini 3.8 Flash) with every quoted script line removed: rank, episode, timestamps, duration, key moment, the three scores and status are kept. The hosted app's **sample show** button loads this file. The full results, with the hook and cliffhanger lines, are in the raw outputs folder shared separately. Regenerate it with `py -m promo_finder.sample_results raw_outputs/promos_ranked.json sample_results/promos_ranked_public.json`.
+
 ## Layout
 
 ```
@@ -74,6 +78,7 @@ promo_finder/ranking.py     weighted rank score, overlap and duplicate handling
 promo_finder/pipeline.py    runs everything, writes the outputs
 promo_finder/llm.py         one complete() for Gemini, OpenAI, Anthropic
 prompts/                    the two prompts, editable
+sample_results/             public copy of the sample show ranking, no quoted lines
 failures.md                 where the tool picks badly, with episode and timestamps
 ```
 

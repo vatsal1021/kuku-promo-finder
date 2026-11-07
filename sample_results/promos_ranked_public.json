@@ -1,0 +1,4934 @@
+{
+  "started": "2026-11-07T13:54:53",
+  "model": "gemini/gemini-3.8-flash",
+  "rank_weights": {
+    "hook": 0.5,
+    "cliffhanger": 0.3,
+    "standalone": 0.2
+  },
+  "episodes": 50,
+  "candidates": 163,
+  "scored": 163,
+  "unscored": 0,
+  "status_counts": {
+    "selected": 93,
+    "overlap": 70,
+    "duplicate": 0
+  },
+  "failed_quote_check": 9,
+  "layer1_seconds": 0.8,
+  "layer2_seconds": 1879.0,
+  "total_seconds": 1879.9,
+  "episodes_per_call": 5,
+  "api_usage": {
+    "calls": 15,
+    "failed_calls": 10,
+    "input_tokens": 39544,
+    "output_tokens": 55211,
+    "thinking_tokens": 48306
+  },
+  "duplicate_groups": [
+    [
+      "E029-A",
+      "X07"
+    ],
+    [
+      "E031-A",
+      "E032-A"
+    ],
+    [
+      "E043-A",
+      "X06"
+    ]
+  ],
+  "note": "Public sample: quoted hook and cliffhanger lines and the 'why it works' text are removed because they quote the screenplay. The full results are in the raw outputs folder, shared separately.",
+  "promos": [
+    {
+      "rank": 1,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "X16",
+      "kind": "stitched",
+      "duration_seconds": 33.9,
+      "segments": [
+        {
+          "episode": 26,
+          "start": "00:55.80",
+          "end": "01:07.00",
+          "start_seconds": 55.8,
+          "end_seconds": 67.0,
+          "length_seconds": 11.2
+        },
+        {
+          "episode": 27,
+          "start": "00:26.10",
+          "end": "00:48.80",
+          "start_seconds": 26.1,
+          "end_seconds": 48.8,
+          "length_seconds": 22.7
+        }
+      ],
+      "key_moment": "The Dowager Duchess recognizes her son's ring before someone pounds on the door.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 10.0,
+      "standalone_score": 8.0,
+      "final_score": 9.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 2,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E003-C",
+      "kind": "single",
+      "duration_seconds": 22.8,
+      "segments": [
+        {
+          "episode": 3,
+          "start": "00:58.20",
+          "end": "01:21.00",
+          "start_seconds": 58.2,
+          "end_seconds": 81.0,
+          "length_seconds": 22.8
+        }
+      ],
+      "key_moment": "A mysterious stranger intervenes when guards forcefully drag a woman away.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 8.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 3,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "X03",
+      "kind": "stitched",
+      "duration_seconds": 27.08,
+      "segments": [
+        {
+          "episode": 31,
+          "start": "02:18.00",
+          "end": "02:25.50",
+          "start_seconds": 138.0,
+          "end_seconds": 145.5,
+          "length_seconds": 7.5
+        },
+        {
+          "episode": 32,
+          "start": "02:14.80",
+          "end": "02:34.38",
+          "start_seconds": 134.8,
+          "end_seconds": 154.38,
+          "length_seconds": 19.58
+        }
+      ],
+      "key_moment": "Catherine thrusts a glowing branding iron millimeters from Juliana's eye.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 10.0,
+      "standalone_score": 8.0,
+      "final_score": 8.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 4,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E023-A",
+      "kind": "single",
+      "duration_seconds": 50.0,
+      "segments": [
+        {
+          "episode": 23,
+          "start": "01:21.50",
+          "end": "02:11.50",
+          "start_seconds": 81.5,
+          "end_seconds": 131.5,
+          "length_seconds": 50.0
+        }
+      ],
+      "key_moment": "Lady Juliana prepares an antidote before an intruder opens the chamber door.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 9.0,
+      "final_score": 8.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": false
+      }
+    },
+    {
+      "rank": 5,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E009-A",
+      "kind": "single",
+      "duration_seconds": 48.5,
+      "segments": [
+        {
+          "episode": 9,
+          "start": "00:05.50",
+          "end": "00:54.00",
+          "start_seconds": 5.5,
+          "end_seconds": 54.0,
+          "length_seconds": 48.5
+        }
+      ],
+      "key_moment": "Juliana frantically administers herbal medicine to save a mother's dying child.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 9.0,
+      "final_score": 8.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 6,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E024-C",
+      "kind": "single",
+      "duration_seconds": 37.7,
+      "segments": [
+        {
+          "episode": 24,
+          "start": "00:32.80",
+          "end": "01:10.50",
+          "start_seconds": 32.8,
+          "end_seconds": 70.5,
+          "length_seconds": 37.7
+        }
+      ],
+      "key_moment": "A cruel noblewoman whips Juliana and turns her weapon toward Prudence.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 8.0,
+      "final_score": 8.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 7,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E044-A",
+      "kind": "single",
+      "duration_seconds": 24.1,
+      "segments": [
+        {
+          "episode": 44,
+          "start": "00:46.40",
+          "end": "01:10.50",
+          "start_seconds": 46.4,
+          "end_seconds": 70.5,
+          "length_seconds": 24.1
+        }
+      ],
+      "key_moment": "Alexander rejects Catherine at the altar to walk toward Juliana in chains.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 8.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 8,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E034-A",
+      "kind": "single",
+      "duration_seconds": 40.5,
+      "segments": [
+        {
+          "episode": 34,
+          "start": "00:35.30",
+          "end": "01:15.80",
+          "start_seconds": 35.3,
+          "end_seconds": 75.8,
+          "length_seconds": 40.5
+        }
+      ],
+      "key_moment": "The Judge interrogates a maid about Juliana's medicinal rituals during a witchcraft trial.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 8.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 9,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "X11",
+      "kind": "stitched",
+      "duration_seconds": 29.8,
+      "segments": [
+        {
+          "episode": 21,
+          "start": "00:30.90",
+          "end": "00:40.50",
+          "start_seconds": 30.9,
+          "end_seconds": 40.5,
+          "length_seconds": 9.6
+        },
+        {
+          "episode": 22,
+          "start": "00:25.80",
+          "end": "00:46.00",
+          "start_seconds": 25.8,
+          "end_seconds": 46.0,
+          "length_seconds": 20.2
+        }
+      ],
+      "key_moment": "Lady Juliana disguises herself as a maid and gets confronted by the housekeeper.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 8.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 10,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E050-A",
+      "kind": "single",
+      "duration_seconds": 49.5,
+      "segments": [
+        {
+          "episode": 50,
+          "start": "00:30.50",
+          "end": "01:20.00",
+          "start_seconds": 30.5,
+          "end_seconds": 80.0,
+          "length_seconds": 49.5
+        }
+      ],
+      "key_moment": "Agnes discovers Catherine and Father Thomas in a secret, scandalous embrace",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 8.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 11,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E003-A",
+      "kind": "single",
+      "duration_seconds": 51.75,
+      "segments": [
+        {
+          "episode": 3,
+          "start": "01:34.00",
+          "end": "02:25.75",
+          "start_seconds": 94.0,
+          "end_seconds": 145.75,
+          "length_seconds": 51.75
+        }
+      ],
+      "key_moment": "A mysterious stranger proposes marriage to a discarded bride before her family.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 9.0,
+      "final_score": 8.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": false
+      }
+    },
+    {
+      "rank": 12,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E043-A",
+      "kind": "single",
+      "duration_seconds": 59.8,
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:16.20",
+          "end": "01:16.00",
+          "start_seconds": 16.2,
+          "end_seconds": 76.0,
+          "length_seconds": 59.8
+        }
+      ],
+      "key_moment": "Alexander presents crown military documents proving Rupert committed treason against him.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 8.0,
+      "final_score": 8.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 13,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E015-A",
+      "kind": "single",
+      "duration_seconds": 41.8,
+      "segments": [
+        {
+          "episode": 15,
+          "start": "00:44.20",
+          "end": "01:26.00",
+          "start_seconds": 44.2,
+          "end_seconds": 86.0,
+          "length_seconds": 41.8
+        }
+      ],
+      "key_moment": "Alexander steps between three thugs and his injured wife to fight them.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 9.0,
+      "final_score": 8.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 14,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E028-C",
+      "kind": "single",
+      "duration_seconds": 32.2,
+      "segments": [
+        {
+          "episode": 28,
+          "start": "00:15.20",
+          "end": "00:47.40",
+          "start_seconds": 15.2,
+          "end_seconds": 47.4,
+          "length_seconds": 32.2
+        }
+      ],
+      "key_moment": "Poisoned Duchess wakes up to accuse Catherine and Rupert before collapsing.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 9.0,
+      "final_score": 8.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 15,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E001-A",
+      "kind": "single",
+      "duration_seconds": 42.4,
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:39.00",
+          "end": "01:21.40",
+          "start_seconds": 39.0,
+          "end_seconds": 81.4,
+          "length_seconds": 42.4
+        }
+      ],
+      "key_moment": "A sister reveals she is marrying the bride's fiancé at the altar.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 16,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E028-B",
+      "kind": "single",
+      "duration_seconds": 45.9,
+      "segments": [
+        {
+          "episode": 28,
+          "start": "01:10.50",
+          "end": "01:56.40",
+          "start_seconds": 70.5,
+          "end_seconds": 116.4,
+          "length_seconds": 45.9
+        }
+      ],
+      "key_moment": "Catherine rips Juliana's locket and exposes her true identity as disgraced noblewoman.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 17,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E002-A",
+      "kind": "single",
+      "duration_seconds": 32.4,
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:32.40",
+          "start_seconds": 0.0,
+          "end_seconds": 32.4,
+          "length_seconds": 32.4
+        }
+      ],
+      "key_moment": "A groom dumps his bride at the altar for her sister.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 18,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E045-A",
+      "kind": "single",
+      "duration_seconds": 23.8,
+      "segments": [
+        {
+          "episode": 45,
+          "start": "01:07.00",
+          "end": "01:30.80",
+          "start_seconds": 67.0,
+          "end_seconds": 90.8,
+          "length_seconds": 23.8
+        }
+      ],
+      "key_moment": "A Catholic Bishop halts Alexander from declaring Juliana his Duchess.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 7.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 19,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E007-A",
+      "kind": "single",
+      "duration_seconds": 36.7,
+      "segments": [
+        {
+          "episode": 7,
+          "start": "00:32.80",
+          "end": "01:09.50",
+          "start_seconds": 32.8,
+          "end_seconds": 69.5,
+          "length_seconds": 36.7
+        }
+      ],
+      "key_moment": "Gerald threatens to eliminate Juliana's beggar husband after she defiantly rejects him.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 7.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 20,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E016-A",
+      "kind": "single",
+      "duration_seconds": 29.4,
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:25.80",
+          "end": "00:55.20",
+          "start_seconds": 25.8,
+          "end_seconds": 55.2,
+          "length_seconds": 29.4
+        }
+      ],
+      "key_moment": "Alexander forces a captured thug to confess that Gerald Harrington hired them.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 7.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 21,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E025-A",
+      "kind": "single",
+      "duration_seconds": 47.3,
+      "segments": [
+        {
+          "episode": 25,
+          "start": "00:16.20",
+          "end": "01:03.50",
+          "start_seconds": 16.2,
+          "end_seconds": 63.5,
+          "length_seconds": 47.3
+        }
+      ],
+      "key_moment": "Alexander discovers Juliana's bloody whip wound and learns she helped the Duchess.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 7.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 22,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E034-C",
+      "kind": "single",
+      "duration_seconds": 54.7,
+      "segments": [
+        {
+          "episode": 34,
+          "start": "01:47.30",
+          "end": "02:42.00",
+          "start_seconds": 107.3,
+          "end_seconds": 162.0,
+          "length_seconds": 54.7
+        }
+      ],
+      "key_moment": "The Judge warns Lady Juliana that refusing to renounce healing herbs proves witchcraft.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 9.0,
+      "final_score": 7.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 23,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E010-A",
+      "kind": "single",
+      "duration_seconds": 59.4,
+      "segments": [
+        {
+          "episode": 10,
+          "start": "00:06.80",
+          "end": "01:06.20",
+          "start_seconds": 6.8,
+          "end_seconds": 66.2,
+          "length_seconds": 59.4
+        }
+      ],
+      "key_moment": "Juliana tends Alexander's bleeding wounds after forcing him to strip his shirt.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 7.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 24,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E025-C",
+      "kind": "single",
+      "duration_seconds": 35.3,
+      "segments": [
+        {
+          "episode": 25,
+          "start": "01:19.50",
+          "end": "01:54.80",
+          "start_seconds": 79.5,
+          "end_seconds": 114.8,
+          "length_seconds": 35.3
+        }
+      ],
+      "key_moment": "Juliana informs Alexander that the Duchess is being poisoned with arsenic.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 7.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 25,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E042-A",
+      "kind": "single",
+      "duration_seconds": 56.3,
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:21.50",
+          "end": "01:17.80",
+          "start_seconds": 21.5,
+          "end_seconds": 77.8,
+          "length_seconds": 56.3
+        }
+      ],
+      "key_moment": "Alexander's mother proclaims him the rightful Duke before he confronts Rupert.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 7.0,
+      "final_score": 7.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 26,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E004-B",
+      "kind": "single",
+      "duration_seconds": 28.8,
+      "segments": [
+        {
+          "episode": 4,
+          "start": "00:05.00",
+          "end": "00:33.80",
+          "start_seconds": 5.0,
+          "end_seconds": 33.8,
+          "length_seconds": 28.8
+        }
+      ],
+      "key_moment": "A bride questions why a mysterious kneeling stranger wants to marry her.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 8.0,
+      "final_score": 7.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 27,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E013-A",
+      "kind": "single",
+      "duration_seconds": 39.0,
+      "segments": [
+        {
+          "episode": 13,
+          "start": "00:47.00",
+          "end": "01:26.00",
+          "start_seconds": 47.0,
+          "end_seconds": 86.0,
+          "length_seconds": 39.0
+        }
+      ],
+      "key_moment": "Juliana crawls through flesh-tearing thorns to earn her shackled husband's freedom.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 7.0,
+      "final_score": 7.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 28,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E027-A",
+      "kind": "single",
+      "duration_seconds": 27.7,
+      "segments": [
+        {
+          "episode": 27,
+          "start": "02:02.80",
+          "end": "02:30.50",
+          "start_seconds": 122.8,
+          "end_seconds": 150.5,
+          "length_seconds": 27.7
+        }
+      ],
+      "key_moment": "Lady Catherine falsely accuses Juliana of poisoning the Duchess, ordering her arrest.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 29,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E004-A",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 4,
+          "start": "01:54.80",
+          "end": "02:14.80",
+          "start_seconds": 114.8,
+          "end_seconds": 134.8,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Lady Ashcroft disowns Juliana for marrying a penniless stranger.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 30,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E018-A",
+      "kind": "single",
+      "duration_seconds": 33.3,
+      "segments": [
+        {
+          "episode": 18,
+          "start": "00:56.20",
+          "end": "01:29.50",
+          "start_seconds": 56.2,
+          "end_seconds": 89.5,
+          "length_seconds": 33.3
+        }
+      ],
+      "key_moment": "Alexander tackles Juliana to protect her from a collapsing burning ceiling beam.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 31,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E022-A",
+      "kind": "single",
+      "duration_seconds": 35.0,
+      "segments": [
+        {
+          "episode": 22,
+          "start": "01:36.00",
+          "end": "02:11.00",
+          "start_seconds": 96.0,
+          "end_seconds": 131.0,
+          "length_seconds": 35.0
+        }
+      ],
+      "key_moment": "Lady Juliana sneaks into the bedroom and discovers the Duchess was poisoned.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 7.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 32,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E047-B",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 47,
+          "start": "01:03.50",
+          "end": "01:23.50",
+          "start_seconds": 63.5,
+          "end_seconds": 83.5,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Juliana halts the guards just as Alexander orders Catherine thrown off the estate",
+      "hook_score": 6.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 8.0,
+      "final_score": 7.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 33,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E046-B",
+      "kind": "single",
+      "duration_seconds": 36.7,
+      "segments": [
+        {
+          "episode": 46,
+          "start": "01:36.80",
+          "end": "02:13.50",
+          "start_seconds": 96.8,
+          "end_seconds": 133.5,
+          "length_seconds": 36.7
+        }
+      ],
+      "key_moment": "Alexander faces armed bailiffs in his chapel after the High Priest challenges his marriage",
+      "hook_score": 7.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 7.0,
+      "final_score": 7.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 34,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E035-A",
+      "kind": "single",
+      "duration_seconds": 35.7,
+      "segments": [
+        {
+          "episode": 35,
+          "start": "01:29.80",
+          "end": "02:05.50",
+          "start_seconds": 89.8,
+          "end_seconds": 125.5,
+          "length_seconds": 35.7
+        }
+      ],
+      "key_moment": "Alexander tells his mother that his regiment was slaughtered by a traitor.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 7.0,
+      "final_score": 7.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 35,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E039-A",
+      "kind": "single",
+      "duration_seconds": 20.4,
+      "segments": [
+        {
+          "episode": 39,
+          "start": "00:29.60",
+          "end": "00:50.00",
+          "start_seconds": 29.6,
+          "end_seconds": 50.0,
+          "length_seconds": 20.4
+        }
+      ],
+      "key_moment": "Loyalist fighters ambush royal cathedral guards to clear the entrance for their Duke.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 7.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 36,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E044-B",
+      "kind": "single",
+      "duration_seconds": 32.6,
+      "segments": [
+        {
+          "episode": 44,
+          "start": "00:13.80",
+          "end": "00:46.40",
+          "start_seconds": 13.8,
+          "end_seconds": 46.4,
+          "length_seconds": 32.6
+        }
+      ],
+      "key_moment": "Catherine abandons Rupert to beg Alexander to remember their past love.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 7.0,
+      "final_score": 6.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 37,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E038-A",
+      "kind": "single",
+      "duration_seconds": 42.41,
+      "segments": [
+        {
+          "episode": 38,
+          "start": "00:45.50",
+          "end": "01:27.91",
+          "start_seconds": 45.5,
+          "end_seconds": 87.91,
+          "length_seconds": 42.41
+        }
+      ],
+      "key_moment": "Juliana hears cathedral bells signaling the wedding that precedes her execution.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 7.0,
+      "final_score": 6.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 38,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E033-B",
+      "kind": "single",
+      "duration_seconds": 50.7,
+      "segments": [
+        {
+          "episode": 33,
+          "start": "00:56.80",
+          "end": "01:47.50",
+          "start_seconds": 56.8,
+          "end_seconds": 107.5,
+          "length_seconds": 50.7
+        }
+      ],
+      "key_moment": "The Lord manipulates a terrified maid into describing Juliana's healing as witchcraft.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 6.7,
+      "checks": {
+        "hook_line_found": false,
+        "hook_in_first_3s": false,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 39,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E041-A",
+      "kind": "single",
+      "duration_seconds": 21.0,
+      "segments": [
+        {
+          "episode": 41,
+          "start": "01:00.80",
+          "end": "01:21.80",
+          "start_seconds": 60.8,
+          "end_seconds": 81.8,
+          "length_seconds": 21.0
+        }
+      ],
+      "key_moment": "An explosion violently interrupts Catherine and Rupert's aristocratic wedding ceremony.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 5.0,
+      "final_score": 6.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 40,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E037-A",
+      "kind": "single",
+      "duration_seconds": 52.97,
+      "segments": [
+        {
+          "episode": 37,
+          "start": "01:43.50",
+          "end": "02:36.47",
+          "start_seconds": 103.5,
+          "end_seconds": 156.47,
+          "length_seconds": 52.97
+        }
+      ],
+      "key_moment": "Lady Clarissa celebrates the written order for Juliana's upcoming public execution.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 8.0,
+      "final_score": 6.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": false
+      }
+    },
+    {
+      "rank": 41,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E033-A",
+      "kind": "single",
+      "duration_seconds": 33.54,
+      "segments": [
+        {
+          "episode": 33,
+          "start": "02:20.50",
+          "end": "02:54.04",
+          "start_seconds": 140.5,
+          "end_seconds": 174.04,
+          "length_seconds": 33.54
+        }
+      ],
+      "key_moment": "The Lord coerces a sobbing maid to testify that Juliana is a witch.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 7.0,
+      "final_score": 6.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 42,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E005-B",
+      "kind": "single",
+      "duration_seconds": 35.5,
+      "segments": [
+        {
+          "episode": 5,
+          "start": "00:10.50",
+          "end": "00:46.00",
+          "start_seconds": 10.5,
+          "end_seconds": 46.0,
+          "length_seconds": 35.5
+        }
+      ],
+      "key_moment": "A father formally disowns his daughter after she marries against his will.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 8.0,
+      "final_score": 6.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 43,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E008-B",
+      "kind": "single",
+      "duration_seconds": 29.8,
+      "segments": [
+        {
+          "episode": 8,
+          "start": "00:33.20",
+          "end": "01:03.00",
+          "start_seconds": 33.2,
+          "end_seconds": 63.0,
+          "length_seconds": 29.8
+        }
+      ],
+      "key_moment": "Juliana asks Alexander if his battle scars came from the war.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 5.0,
+      "final_score": 6.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 44,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E036-B",
+      "kind": "single",
+      "duration_seconds": 43.0,
+      "segments": [
+        {
+          "episode": 36,
+          "start": "01:57.00",
+          "end": "02:40.00",
+          "start_seconds": 117.0,
+          "end_seconds": 160.0,
+          "length_seconds": 43.0
+        }
+      ],
+      "key_moment": "Alexander learns his wife Juliana has been condemned to execution following a wedding.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 8.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 45,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "X08",
+      "kind": "stitched",
+      "duration_seconds": 28.11,
+      "segments": [
+        {
+          "episode": 30,
+          "start": "00:33.40",
+          "end": "00:43.80",
+          "start_seconds": 33.4,
+          "end_seconds": 43.8,
+          "length_seconds": 10.4
+        },
+        {
+          "episode": 30,
+          "start": "02:13.50",
+          "end": "02:31.21",
+          "start_seconds": 133.5,
+          "end_seconds": 151.21,
+          "length_seconds": 17.71
+        }
+      ],
+      "key_moment": "The Elder Nobleman commands Rupert to frame Juliana as a witch.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 46,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E021-B",
+      "kind": "single",
+      "duration_seconds": 50.4,
+      "segments": [
+        {
+          "episode": 21,
+          "start": "00:48.80",
+          "end": "01:39.20",
+          "start_seconds": 48.8,
+          "end_seconds": 99.2,
+          "length_seconds": 50.4
+        }
+      ],
+      "key_moment": "Lady Juliana saves a dying boy and learns the Duchess is ill.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 7.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 47,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E045-B",
+      "kind": "single",
+      "duration_seconds": 21.5,
+      "segments": [
+        {
+          "episode": 45,
+          "start": "00:03.00",
+          "end": "00:24.50",
+          "start_seconds": 3.0,
+          "end_seconds": 24.5,
+          "length_seconds": 21.5
+        }
+      ],
+      "key_moment": "Alexander frees Juliana from her chains and drapes his ducal mantle on her.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 6.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 48,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E046-A",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 46,
+          "start": "01:05.80",
+          "end": "01:25.80",
+          "start_seconds": 65.8,
+          "end_seconds": 85.8,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Juliana confronts the High Priest over his refusal to recognize her marriage",
+      "hook_score": 8.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 49,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E011-C",
+      "kind": "single",
+      "duration_seconds": 20.75,
+      "segments": [
+        {
+          "episode": 11,
+          "start": "01:32.00",
+          "end": "01:52.75",
+          "start_seconds": 92.0,
+          "end_seconds": 112.75,
+          "length_seconds": 20.75
+        }
+      ],
+      "key_moment": "The constable discovers Gerald's pocket watch planted inside Alexander's coat.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 50,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E041-C",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 41,
+          "start": "00:00.00",
+          "end": "00:20.00",
+          "start_seconds": 0.0,
+          "end_seconds": 20.0,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Catherine halts her wedding ceremony to drag in Juliana as a prisoner.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 6.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 51,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E043-B",
+      "kind": "single",
+      "duration_seconds": 21.76,
+      "segments": [
+        {
+          "episode": 43,
+          "start": "01:33.20",
+          "end": "01:54.96",
+          "start_seconds": 93.2,
+          "end_seconds": 114.96,
+          "length_seconds": 21.76
+        }
+      ],
+      "key_moment": "Lord Sterling attempts to flee the cathedral and is blocked by police.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 4.0,
+      "final_score": 6.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 52,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E036-A",
+      "kind": "single",
+      "duration_seconds": 37.75,
+      "segments": [
+        {
+          "episode": 36,
+          "start": "02:43.00",
+          "end": "03:20.75",
+          "start_seconds": 163.0,
+          "end_seconds": 200.75,
+          "length_seconds": 37.75
+        }
+      ],
+      "key_moment": "Alexander vows to crash the wedding and reclaim his stolen ducal title.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 9.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 53,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E011-B",
+      "kind": "single",
+      "duration_seconds": 29.0,
+      "segments": [
+        {
+          "episode": 11,
+          "start": "00:14.30",
+          "end": "00:43.30",
+          "start_seconds": 14.3,
+          "end_seconds": 43.3,
+          "length_seconds": 29.0
+        }
+      ],
+      "key_moment": "Gerald accuses Juliana's husband of theft and orders the constable to search their home.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 8.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 54,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E012-C",
+      "kind": "single",
+      "duration_seconds": 24.01,
+      "segments": [
+        {
+          "episode": 12,
+          "start": "01:03.20",
+          "end": "01:27.21",
+          "start_seconds": 63.2,
+          "end_seconds": 87.21,
+          "length_seconds": 24.01
+        }
+      ],
+      "key_moment": "Clarissa blackmails Juliana into an ordeal under threat of hanging Alexander.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 4.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 55,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E007-B",
+      "kind": "single",
+      "duration_seconds": 26.5,
+      "segments": [
+        {
+          "episode": 7,
+          "start": "01:09.50",
+          "end": "01:36.00",
+          "start_seconds": 69.5,
+          "end_seconds": 96.0,
+          "length_seconds": 26.5
+        }
+      ],
+      "key_moment": "The scarred husband silently intimidates Gerald into fleeing in terror.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 7.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 56,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E049-C",
+      "kind": "single",
+      "duration_seconds": 40.6,
+      "segments": [
+        {
+          "episode": 49,
+          "start": "01:12.40",
+          "end": "01:53.00",
+          "start_seconds": 72.4,
+          "end_seconds": 113.0,
+          "length_seconds": 40.6
+        }
+      ],
+      "key_moment": "Catherine demands Father Thomas delay the hearing and leak information to her",
+      "hook_score": 5.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 7.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 57,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E002-C",
+      "kind": "single",
+      "duration_seconds": 21.7,
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:47.60",
+          "end": "01:09.30",
+          "start_seconds": 47.6,
+          "end_seconds": 69.3,
+          "length_seconds": 21.7
+        }
+      ],
+      "key_moment": "A woman and her mother mock her sister at the altar.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 7.0,
+      "final_score": 5.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 58,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E046-C",
+      "kind": "single",
+      "duration_seconds": 22.3,
+      "segments": [
+        {
+          "episode": 46,
+          "start": "00:20.50",
+          "end": "00:42.80",
+          "start_seconds": 20.5,
+          "end_seconds": 42.8,
+          "length_seconds": 22.3
+        }
+      ],
+      "key_moment": "The High Priest declares Alexander's marriage void because he wed as a beggar",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 8.0,
+      "final_score": 5.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 59,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E032-B",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 32,
+          "start": "00:03.00",
+          "end": "00:23.00",
+          "start_seconds": 3.0,
+          "end_seconds": 23.0,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Juliana dares Catherine to burn her mother's medicinal book.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 6.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 60,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "X17",
+      "kind": "stitched",
+      "duration_seconds": 31.2,
+      "segments": [
+        {
+          "episode": 31,
+          "start": "00:54.80",
+          "end": "01:05.50",
+          "start_seconds": 54.8,
+          "end_seconds": 65.5,
+          "length_seconds": 10.7
+        },
+        {
+          "episode": 31,
+          "start": "01:43.50",
+          "end": "02:04.00",
+          "start_seconds": 103.5,
+          "end_seconds": 124.0,
+          "length_seconds": 20.5
+        }
+      ],
+      "key_moment": "Juliana verbally defies Catherine as Catherine threatens her with a branding iron.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 5.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 61,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E020-A",
+      "kind": "single",
+      "duration_seconds": 44.25,
+      "segments": [
+        {
+          "episode": 20,
+          "start": "01:10.50",
+          "end": "01:54.75",
+          "start_seconds": 70.5,
+          "end_seconds": 114.75,
+          "length_seconds": 44.25
+        }
+      ],
+      "key_moment": "Catherine plots to seize Ashbury once the Duchess dies while Juliana tends villagers.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 6.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": false
+      }
+    },
+    {
+      "rank": 62,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E014-B",
+      "kind": "single",
+      "duration_seconds": 31.0,
+      "segments": [
+        {
+          "episode": 14,
+          "start": "00:09.50",
+          "end": "00:40.50",
+          "start_seconds": 9.5,
+          "end_seconds": 40.5,
+          "length_seconds": 31.0
+        }
+      ],
+      "key_moment": "Juliana trades the recovered ring to the constable to free her husband.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 8.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 63,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E019-C",
+      "kind": "single",
+      "duration_seconds": 24.2,
+      "segments": [
+        {
+          "episode": 19,
+          "start": "01:18.80",
+          "end": "01:43.00",
+          "start_seconds": 78.8,
+          "end_seconds": 103.0,
+          "length_seconds": 24.2
+        }
+      ],
+      "key_moment": "Alexander plots his return while Juliana weeps over their ruined lives.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 5.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 64,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "X07",
+      "kind": "stitched",
+      "duration_seconds": 29.8,
+      "segments": [
+        {
+          "episode": 29,
+          "start": "00:56.60",
+          "end": "01:07.00",
+          "start_seconds": 56.6,
+          "end_seconds": 67.0,
+          "length_seconds": 10.4
+        },
+        {
+          "episode": 29,
+          "start": "01:26.50",
+          "end": "01:45.90",
+          "start_seconds": 86.5,
+          "end_seconds": 105.9,
+          "length_seconds": 19.4
+        }
+      ],
+      "key_moment": "Catherine imprisons Juliana in a cell for healing the Duchess.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 65,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E012-B",
+      "kind": "single",
+      "duration_seconds": 23.4,
+      "segments": [
+        {
+          "episode": 12,
+          "start": "00:04.60",
+          "end": "00:28.00",
+          "start_seconds": 4.6,
+          "end_seconds": 28.0,
+          "length_seconds": 23.4
+        }
+      ],
+      "key_moment": "Juliana blocks the constable's handcuffs and accuses Gerald of planting the watch.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 66,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E018-C",
+      "kind": "single",
+      "duration_seconds": 20.2,
+      "segments": [
+        {
+          "episode": 18,
+          "start": "00:05.80",
+          "end": "00:26.00",
+          "start_seconds": 5.8,
+          "end_seconds": 26.0,
+          "length_seconds": 20.2
+        }
+      ],
+      "key_moment": "Alexander kicks down the burning bedroom door to rescue Juliana from bed.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 67,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E020-B",
+      "kind": "single",
+      "duration_seconds": 24.0,
+      "segments": [
+        {
+          "episode": 20,
+          "start": "00:15.20",
+          "end": "00:39.20",
+          "start_seconds": 15.2,
+          "end_seconds": 39.2,
+          "length_seconds": 24.0
+        }
+      ],
+      "key_moment": "Rupert and Catherine conspire to inherit Ashbury as the Dowager Duchess slowly declines.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 7.0,
+      "final_score": 5.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 68,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E011-A",
+      "kind": "single",
+      "duration_seconds": 21.5,
+      "segments": [
+        {
+          "episode": 11,
+          "start": "00:58.00",
+          "end": "01:19.50",
+          "start_seconds": 58.0,
+          "end_seconds": 79.5,
+          "length_seconds": 21.5
+        }
+      ],
+      "key_moment": "Gerald and the constable ransack Juliana's cottage under false accusations of theft.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 6.0,
+      "final_score": 5.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 69,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E005-A",
+      "kind": "single",
+      "duration_seconds": 52.7,
+      "segments": [
+        {
+          "episode": 5,
+          "start": "00:57.80",
+          "end": "01:50.50",
+          "start_seconds": 57.8,
+          "end_seconds": 110.5,
+          "length_seconds": 52.7
+        }
+      ],
+      "key_moment": "A stranger helps a weeping bride recover her mother's discarded heirloom ledger.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 8.0,
+      "final_score": 5.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 70,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E029-B",
+      "kind": "single",
+      "duration_seconds": 40.4,
+      "segments": [
+        {
+          "episode": 29,
+          "start": "00:13.20",
+          "end": "00:53.60",
+          "start_seconds": 13.2,
+          "end_seconds": 53.6,
+          "length_seconds": 40.4
+        }
+      ],
+      "key_moment": "Catherine threatens to burn Juliana's book and frame her for witchcraft.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 7.0,
+      "final_score": 5.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 71,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E001-B",
+      "kind": "single",
+      "duration_seconds": 21.0,
+      "segments": [
+        {
+          "episode": 1,
+          "start": "01:57.00",
+          "end": "02:18.00",
+          "start_seconds": 117.0,
+          "end_seconds": 138.0,
+          "length_seconds": 21.0
+        }
+      ],
+      "key_moment": "A groom openly rejects his bride at the altar to marry her sister.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 5.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 72,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E039-B",
+      "kind": "single",
+      "duration_seconds": 23.61,
+      "segments": [
+        {
+          "episode": 39,
+          "start": "01:14.80",
+          "end": "01:38.41",
+          "start_seconds": 74.8,
+          "end_seconds": 98.41,
+          "length_seconds": 23.61
+        }
+      ],
+      "key_moment": "Alexander orders his loyalist to secure the chapel before reclaiming his home.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 5.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 73,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E041-B",
+      "kind": "single",
+      "duration_seconds": 26.8,
+      "segments": [
+        {
+          "episode": 41,
+          "start": "00:34.00",
+          "end": "01:00.80",
+          "start_seconds": 34.0,
+          "end_seconds": 60.8,
+          "length_seconds": 26.8
+        }
+      ],
+      "key_moment": "Catherine publicly humiliates chained prisoner Juliana in front of the cathedral congregation.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 6.0,
+      "final_score": 4.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 74,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E037-B",
+      "kind": "single",
+      "duration_seconds": 31.5,
+      "segments": [
+        {
+          "episode": 37,
+          "start": "00:44.00",
+          "end": "01:15.50",
+          "start_seconds": 44.0,
+          "end_seconds": 75.5,
+          "length_seconds": 31.5
+        }
+      ],
+      "key_moment": "Lady Clarissa reveals to her husband that an execution follows the wedding.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 5.0,
+      "final_score": 4.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 75,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E048-A",
+      "kind": "single",
+      "duration_seconds": 30.8,
+      "segments": [
+        {
+          "episode": 48,
+          "start": "00:00.00",
+          "end": "00:30.80",
+          "start_seconds": 0.0,
+          "end_seconds": 30.8,
+          "length_seconds": 30.8
+        }
+      ],
+      "key_moment": "Catherine plots her revenge during the ten-day hearing window and summons her maid",
+      "hook_score": 5.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 5.0,
+      "final_score": 4.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 76,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E022-C",
+      "kind": "single",
+      "duration_seconds": 20.6,
+      "segments": [
+        {
+          "episode": 22,
+          "start": "00:49.20",
+          "end": "01:09.80",
+          "start_seconds": 49.2,
+          "end_seconds": 69.8,
+          "length_seconds": 20.6
+        }
+      ],
+      "key_moment": "The housekeeper aggressively interrogates Lady Juliana about her ability to clean.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 4.0,
+      "final_score": 4.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 77,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E017-A",
+      "kind": "single",
+      "duration_seconds": 34.7,
+      "segments": [
+        {
+          "episode": 17,
+          "start": "00:25.80",
+          "end": "01:00.50",
+          "start_seconds": 25.8,
+          "end_seconds": 60.5,
+          "length_seconds": 34.7
+        }
+      ],
+      "key_moment": "Alexander vows protection and Juliana tends to his wounds in the cottage.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 5.0,
+      "final_score": 4.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 78,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E040-B",
+      "kind": "single",
+      "duration_seconds": 33.3,
+      "segments": [
+        {
+          "episode": 40,
+          "start": "01:09.50",
+          "end": "01:42.80",
+          "start_seconds": 69.5,
+          "end_seconds": 102.8,
+          "length_seconds": 33.3
+        }
+      ],
+      "key_moment": "Catherine enters the cathedral in her bridal gown to marry Rupert at the altar.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 7.0,
+      "final_score": 4.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 79,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E048-B",
+      "kind": "single",
+      "duration_seconds": 37.0,
+      "segments": [
+        {
+          "episode": 48,
+          "start": "00:43.00",
+          "end": "01:20.00",
+          "start_seconds": 43.0,
+          "end_seconds": 80.0,
+          "length_seconds": 37.0
+        }
+      ],
+      "key_moment": "Catherine bribes Agnes to secretly bring Father Thomas to her bedchamber",
+      "hook_score": 5.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 6.0,
+      "final_score": 4.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 80,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E023-C",
+      "kind": "single",
+      "duration_seconds": 45.2,
+      "segments": [
+        {
+          "episode": 23,
+          "start": "00:16.80",
+          "end": "01:02.00",
+          "start_seconds": 16.8,
+          "end_seconds": 62.0,
+          "length_seconds": 45.2
+        }
+      ],
+      "key_moment": "Lady Juliana consults her mother's journal to diagnose the gasping Duchess.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 5.0,
+      "final_score": 3.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 81,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E040-A",
+      "kind": "single",
+      "duration_seconds": 26.2,
+      "segments": [
+        {
+          "episode": 40,
+          "start": "00:19.00",
+          "end": "00:45.20",
+          "start_seconds": 19.0,
+          "end_seconds": 45.2,
+          "length_seconds": 26.2
+        }
+      ],
+      "key_moment": "Lord and Lady Harrington gloat over Juliana's downfall while taking their wedding seats.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 5.0,
+      "final_score": 3.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 82,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E037-C",
+      "kind": "single",
+      "duration_seconds": 25.0,
+      "segments": [
+        {
+          "episode": 37,
+          "start": "00:09.50",
+          "end": "00:34.50",
+          "start_seconds": 9.5,
+          "end_seconds": 34.5,
+          "length_seconds": 25.0
+        }
+      ],
+      "key_moment": "Rupert and Catherine plan Juliana's post-wedding execution to cement their estate takeover.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 3.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 83,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E025-B",
+      "kind": "single",
+      "duration_seconds": 33.5,
+      "segments": [
+        {
+          "episode": 25,
+          "start": "02:14.50",
+          "end": "02:48.00",
+          "start_seconds": 134.5,
+          "end_seconds": 168.0,
+          "length_seconds": 33.5
+        }
+      ],
+      "key_moment": "Alexander agrees to listen to Juliana's story as they walk together.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 6.0,
+      "final_score": 3.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 84,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E014-A",
+      "kind": "single",
+      "duration_seconds": 29.13,
+      "segments": [
+        {
+          "episode": 14,
+          "start": "00:58.50",
+          "end": "01:27.63",
+          "start_seconds": 58.5,
+          "end_seconds": 87.63,
+          "length_seconds": 29.13
+        }
+      ],
+      "key_moment": "Alexander tends to Juliana's wounds and silently resolves to seek vengeance.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 5.0,
+      "final_score": 3.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 85,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E009-B",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 9,
+          "start": "01:28.00",
+          "end": "01:48.00",
+          "start_seconds": 88.0,
+          "end_seconds": 108.0,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "A groom informs a blond nobleman that the late Duke may still live.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 6.0,
+      "final_score": 3.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 86,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E038-C",
+      "kind": "single",
+      "duration_seconds": 23.2,
+      "segments": [
+        {
+          "episode": 38,
+          "start": "00:00.00",
+          "end": "00:23.20",
+          "start_seconds": 0.0,
+          "end_seconds": 23.2,
+          "length_seconds": 23.2
+        }
+      ],
+      "key_moment": "A guard sneaks a loaf of bread to a starving imprisoned Juliana.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 6.0,
+      "final_score": 3.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 87,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E019-A",
+      "kind": "single",
+      "duration_seconds": 30.3,
+      "segments": [
+        {
+          "episode": 19,
+          "start": "00:04.50",
+          "end": "00:34.80",
+          "start_seconds": 4.5,
+          "end_seconds": 34.8,
+          "length_seconds": 30.3
+        }
+      ],
+      "key_moment": "Generous villagers offer food, blankets, and an empty barn to Juliana and Alexander.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 7.0,
+      "final_score": 3.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 88,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E049-B",
+      "kind": "single",
+      "duration_seconds": 32.3,
+      "segments": [
+        {
+          "episode": 49,
+          "start": "00:27.50",
+          "end": "00:59.80",
+          "start_seconds": 27.5,
+          "end_seconds": 59.8,
+          "length_seconds": 32.3
+        }
+      ],
+      "key_moment": "Catherine and Father Thomas secretly meet to discuss their conspiracy against Juliana",
+      "hook_score": 3.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 4.0,
+      "final_score": 2.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 89,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E017-C",
+      "kind": "single",
+      "duration_seconds": 31.38,
+      "segments": [
+        {
+          "episode": 17,
+          "start": "01:27.50",
+          "end": "01:58.88",
+          "start_seconds": 87.5,
+          "end_seconds": 118.88,
+          "length_seconds": 31.38
+        }
+      ],
+      "key_moment": "Juliana and Alexander embrace tenderly by the fire as she professes growing trust.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 7.0,
+      "final_score": 2.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 90,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E026-C",
+      "kind": "single",
+      "duration_seconds": 21.6,
+      "segments": [
+        {
+          "episode": 26,
+          "start": "00:14.20",
+          "end": "00:35.80",
+          "start_seconds": 14.2,
+          "end_seconds": 35.8,
+          "length_seconds": 21.6
+        }
+      ],
+      "key_moment": "Maid secretly administers antidote drops to a weakened Duchess.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 4.0,
+      "final_score": 2.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 91,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E006-C",
+      "kind": "single",
+      "duration_seconds": 20.6,
+      "segments": [
+        {
+          "episode": 6,
+          "start": "00:56.20",
+          "end": "01:16.80",
+          "start_seconds": 56.2,
+          "end_seconds": 76.8,
+          "length_seconds": 20.6
+        }
+      ],
+      "key_moment": "The mysterious man helps Juliana clean and fix up their rustic cottage.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 5.0,
+      "final_score": 2.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 92,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E006-A",
+      "kind": "single",
+      "duration_seconds": 23.8,
+      "segments": [
+        {
+          "episode": 6,
+          "start": "00:09.90",
+          "end": "00:33.70",
+          "start_seconds": 9.9,
+          "end_seconds": 33.7,
+          "length_seconds": 23.8
+        }
+      ],
+      "key_moment": "Juliana and the mysterious man arrive at his secluded cottage in the rain.",
+      "hook_score": 1.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 4.0,
+      "final_score": 1.9,
+      "checks": {
+        "hook_line_found": false,
+        "hook_in_first_3s": false,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": 93,
+      "status": "selected",
+      "replaced_by": null,
+      "id": "E006-B",
+      "kind": "single",
+      "duration_seconds": 23.3,
+      "segments": [
+        {
+          "episode": 6,
+          "start": "01:31.70",
+          "end": "01:55.00",
+          "start_seconds": 91.7,
+          "end_seconds": 115.0,
+          "length_seconds": 23.3
+        }
+      ],
+      "key_moment": "Juliana finds comfort beside the fire in the mysterious man's humble cottage.",
+      "hook_score": 1.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 5.0,
+      "final_score": 1.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X03",
+      "id": "E032-A",
+      "kind": "single",
+      "duration_seconds": 34.88,
+      "segments": [
+        {
+          "episode": 32,
+          "start": "01:59.50",
+          "end": "02:34.38",
+          "start_seconds": 119.5,
+          "end_seconds": 154.38,
+          "length_seconds": 34.88
+        }
+      ],
+      "key_moment": "Catherine lunges to brand Juliana's face with a red-hot iron.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 7.0,
+      "final_score": 8.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X03",
+      "id": "E031-A",
+      "kind": "single",
+      "duration_seconds": 22.0,
+      "segments": [
+        {
+          "episode": 31,
+          "start": "02:18.00",
+          "end": "02:40.00",
+          "start_seconds": 138.0,
+          "end_seconds": 160.0,
+          "length_seconds": 22.0
+        }
+      ],
+      "key_moment": "Catherine threatens to blind chained Juliana with a red-hot branding iron.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 7.0,
+      "final_score": 8.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E003-A",
+      "id": "X10",
+      "kind": "stitched",
+      "duration_seconds": 30.65,
+      "segments": [
+        {
+          "episode": 3,
+          "start": "01:24.00",
+          "end": "01:34.00",
+          "start_seconds": 84.0,
+          "end_seconds": 94.0,
+          "length_seconds": 10.0
+        },
+        {
+          "episode": 3,
+          "start": "02:05.10",
+          "end": "02:25.75",
+          "start_seconds": 125.1,
+          "end_seconds": 145.75,
+          "length_seconds": 20.65
+        }
+      ],
+      "key_moment": "The Bearded Stranger knocks out a guard and proposes to Juliana.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 6.0,
+      "final_score": 7.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": false
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X16",
+      "id": "E026-A",
+      "kind": "single",
+      "duration_seconds": 55.0,
+      "segments": [
+        {
+          "episode": 26,
+          "start": "00:55.80",
+          "end": "01:50.80",
+          "start_seconds": 55.8,
+          "end_seconds": 110.8,
+          "length_seconds": 55.0
+        }
+      ],
+      "key_moment": "Duchess spots a shocking ring on her maid's hand while discussing poison.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 7.0,
+      "final_score": 7.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E045-A",
+      "id": "E045-C",
+      "kind": "single",
+      "duration_seconds": 35.25,
+      "segments": [
+        {
+          "episode": 45,
+          "start": "01:26.50",
+          "end": "02:01.75",
+          "start_seconds": 86.5,
+          "end_seconds": 121.75,
+          "length_seconds": 35.25
+        }
+      ],
+      "key_moment": "The High Priest officially voids Alexander and Juliana's ducal marriage.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 7.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X11",
+      "id": "E022-B",
+      "kind": "single",
+      "duration_seconds": 27.0,
+      "segments": [
+        {
+          "episode": 22,
+          "start": "00:19.00",
+          "end": "00:46.00",
+          "start_seconds": 19.0,
+          "end_seconds": 46.0,
+          "length_seconds": 27.0
+        }
+      ],
+      "key_moment": "The stern housekeeper catches Lady Juliana sneaking inside disguised as a maid.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 8.0,
+      "final_score": 7.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X11",
+      "id": "E021-A",
+      "kind": "single",
+      "duration_seconds": 32.3,
+      "segments": [
+        {
+          "episode": 21,
+          "start": "00:03.50",
+          "end": "00:35.80",
+          "start_seconds": 3.5,
+          "end_seconds": 35.8,
+          "length_seconds": 32.3
+        }
+      ],
+      "key_moment": "A panicked village girl begs Lady Juliana to save her dying brother.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 7.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E043-A",
+      "id": "E043-C",
+      "kind": "single",
+      "duration_seconds": 21.8,
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:00.00",
+          "end": "00:21.80",
+          "start_seconds": 0.0,
+          "end_seconds": 21.8,
+          "length_seconds": 21.8
+        }
+      ],
+      "key_moment": "The Royal Guard captain defies Rupert and salutes Alexander as Duke.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 7.0,
+      "final_score": 7.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E018-A",
+      "id": "E018-B",
+      "kind": "single",
+      "duration_seconds": 29.0,
+      "segments": [
+        {
+          "episode": 18,
+          "start": "01:26.50",
+          "end": "01:55.50",
+          "start_seconds": 86.5,
+          "end_seconds": 115.5,
+          "length_seconds": 29.0
+        }
+      ],
+      "key_moment": "Alexander shields Juliana from falling fire and leaps through a burning window.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 7.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E042-A",
+      "id": "X05",
+      "kind": "stitched",
+      "duration_seconds": 28.86,
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:23.40",
+          "end": "00:33.80",
+          "start_seconds": 23.4,
+          "end_seconds": 33.8,
+          "length_seconds": 10.4
+        },
+        {
+          "episode": 43,
+          "start": "01:36.50",
+          "end": "01:54.96",
+          "start_seconds": 96.5,
+          "end_seconds": 114.96,
+          "length_seconds": 18.46
+        }
+      ],
+      "key_moment": "Alexander confronts Rupert and traps Lord Sterling as he flees.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 7.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E013-A",
+      "id": "X14",
+      "kind": "stitched",
+      "duration_seconds": 30.63,
+      "segments": [
+        {
+          "episode": 13,
+          "start": "00:47.00",
+          "end": "00:56.00",
+          "start_seconds": 47.0,
+          "end_seconds": 56.0,
+          "length_seconds": 9.0
+        },
+        {
+          "episode": 14,
+          "start": "01:06.00",
+          "end": "01:27.63",
+          "start_seconds": 66.0,
+          "end_seconds": 87.63,
+          "length_seconds": 21.63
+        }
+      ],
+      "key_moment": "Alexander comforts an injured Juliana and swears vengeance on her tormentors.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 5.0,
+      "final_score": 7.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E016-A",
+      "id": "X15",
+      "kind": "stitched",
+      "duration_seconds": 28.89,
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:25.80",
+          "end": "00:34.50",
+          "start_seconds": 25.8,
+          "end_seconds": 34.5,
+          "length_seconds": 8.7
+        },
+        {
+          "episode": 16,
+          "start": "01:03.00",
+          "end": "01:23.19",
+          "start_seconds": 63.0,
+          "end_seconds": 83.19,
+          "length_seconds": 20.19
+        }
+      ],
+      "key_moment": "Alexander beats down three attackers to rescue Juliana in the garden.",
+      "hook_score": 9.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 8.0,
+      "final_score": 6.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E047-B",
+      "id": "E047-A",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 47,
+          "start": "01:18.80",
+          "end": "01:38.80",
+          "start_seconds": 78.8,
+          "end_seconds": 98.8,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Juliana offers a humiliated Catherine shelter in exchange for servant labor",
+      "hook_score": 7.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 7.0,
+      "final_score": 6.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E050-A",
+      "id": "E050-B",
+      "kind": "single",
+      "duration_seconds": 32.8,
+      "segments": [
+        {
+          "episode": 50,
+          "start": "00:07.00",
+          "end": "00:39.80",
+          "start_seconds": 7.0,
+          "end_seconds": 39.8,
+          "length_seconds": 32.8
+        }
+      ],
+      "key_moment": "Father Thomas demands tax collection rights from Catherine in exchange for his discretion",
+      "hook_score": 8.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 6.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E033-B",
+      "id": "E033-C",
+      "kind": "single",
+      "duration_seconds": 27.6,
+      "segments": [
+        {
+          "episode": 33,
+          "start": "01:44.20",
+          "end": "02:11.80",
+          "start_seconds": 104.2,
+          "end_seconds": 131.8,
+          "length_seconds": 27.6
+        }
+      ],
+      "key_moment": "The Lord twists a maid's testimony to brand Juliana's healing as witchcraft.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 6.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E024-C",
+      "id": "E024-A",
+      "kind": "single",
+      "duration_seconds": 25.8,
+      "segments": [
+        {
+          "episode": 24,
+          "start": "01:06.20",
+          "end": "01:32.00",
+          "start_seconds": 66.2,
+          "end_seconds": 92.0,
+          "length_seconds": 25.8
+        }
+      ],
+      "key_moment": "A noblewoman threatens Prudence while forcing Lady Juliana to scrub hearthstones.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E043-A",
+      "id": "X06",
+      "kind": "stitched",
+      "duration_seconds": 28.8,
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:16.20",
+          "end": "00:26.00",
+          "start_seconds": 16.2,
+          "end_seconds": 26.0,
+          "length_seconds": 9.8
+        },
+        {
+          "episode": 43,
+          "start": "00:57.00",
+          "end": "01:16.00",
+          "start_seconds": 57.0,
+          "end_seconds": 76.0,
+          "length_seconds": 19.0
+        }
+      ],
+      "key_moment": "Alexander publicly exposes Rupert and Lord Sterling for military treason.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 5.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E013-A",
+      "id": "E013-C",
+      "kind": "single",
+      "duration_seconds": 22.5,
+      "segments": [
+        {
+          "episode": 13,
+          "start": "01:20.50",
+          "end": "01:43.00",
+          "start_seconds": 80.5,
+          "end_seconds": 103.0,
+          "length_seconds": 22.5
+        }
+      ],
+      "key_moment": "Alexander fights the constable while Juliana frantically searches for a ring in briars.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 4.0,
+      "final_score": 6.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E035-A",
+      "id": "E035-B",
+      "kind": "single",
+      "duration_seconds": 55.5,
+      "segments": [
+        {
+          "episode": 35,
+          "start": "00:36.50",
+          "end": "01:32.00",
+          "start_seconds": 36.5,
+          "end_seconds": 92.0,
+          "length_seconds": 55.5
+        }
+      ],
+      "key_moment": "Alexander reunites with his grieving mother and reveals he survived a military ambush.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 7.0,
+      "final_score": 6.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E003-C",
+      "id": "E003-B",
+      "kind": "single",
+      "duration_seconds": 38.7,
+      "segments": [
+        {
+          "episode": 3,
+          "start": "00:25.80",
+          "end": "01:04.50",
+          "start_seconds": 25.8,
+          "end_seconds": 64.5,
+          "length_seconds": 38.7
+        }
+      ],
+      "key_moment": "A matriarch has guards forcefully drag her own daughter from the church.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 6.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X08",
+      "id": "E030-A",
+      "kind": "single",
+      "duration_seconds": 31.4,
+      "segments": [
+        {
+          "episode": 30,
+          "start": "00:33.40",
+          "end": "01:04.80",
+          "start_seconds": 33.4,
+          "end_seconds": 64.8,
+          "length_seconds": 31.4
+        }
+      ],
+      "key_moment": "Elder Nobleman physically threatens Rupert to force him into destroying their prisoner.",
+      "hook_score": 8.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 5.0,
+      "final_score": 6.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E024-C",
+      "id": "E024-B",
+      "kind": "single",
+      "duration_seconds": 32.8,
+      "segments": [
+        {
+          "episode": 24,
+          "start": "00:06.00",
+          "end": "00:38.80",
+          "start_seconds": 6.0,
+          "end_seconds": 38.8,
+          "length_seconds": 32.8
+        }
+      ],
+      "key_moment": "A noblewoman violently whips Lady Juliana for trying to help the Duchess.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 8.0,
+      "final_score": 6.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E004-A",
+      "id": "E004-C",
+      "kind": "single",
+      "duration_seconds": 35.0,
+      "segments": [
+        {
+          "episode": 4,
+          "start": "01:21.80",
+          "end": "01:56.80",
+          "start_seconds": 81.8,
+          "end_seconds": 116.8,
+          "length_seconds": 35.0
+        }
+      ],
+      "key_moment": "A priest marries Juliana to a stranger as her furious ex intervenes.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 8.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E009-A",
+      "id": "E009-C",
+      "kind": "single",
+      "duration_seconds": 35.5,
+      "segments": [
+        {
+          "episode": 9,
+          "start": "00:52.50",
+          "end": "01:28.00",
+          "start_seconds": 52.5,
+          "end_seconds": 88.0,
+          "length_seconds": 35.5
+        }
+      ],
+      "key_moment": "Juliana heals a dying child before village gossip reaches a wealthy nobleman.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 5.0,
+      "final_score": 6.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E028-B",
+      "id": "E028-A",
+      "kind": "single",
+      "duration_seconds": 25.5,
+      "segments": [
+        {
+          "episode": 28,
+          "start": "01:53.00",
+          "end": "02:18.50",
+          "start_seconds": 113.0,
+          "end_seconds": 138.5,
+          "length_seconds": 25.5
+        }
+      ],
+      "key_moment": "Catherine threatens to send Juliana to the gallows using her mother's herbarium.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 6.0,
+      "final_score": 5.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X16",
+      "id": "E027-B",
+      "kind": "single",
+      "duration_seconds": 36.6,
+      "segments": [
+        {
+          "episode": 27,
+          "start": "00:44.20",
+          "end": "01:20.80",
+          "start_seconds": 44.2,
+          "end_seconds": 80.8,
+          "length_seconds": 36.6
+        }
+      ],
+      "key_moment": "Nobles barge into Duchess's room and catch Juliana with medicine.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 7.0,
+      "final_score": 5.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E036-B",
+      "id": "E036-C",
+      "kind": "single",
+      "duration_seconds": 20.5,
+      "segments": [
+        {
+          "episode": 36,
+          "start": "01:39.00",
+          "end": "01:59.50",
+          "start_seconds": 99.0,
+          "end_seconds": 119.5,
+          "length_seconds": 20.5
+        }
+      ],
+      "key_moment": "Alexander discovers Rupert and Catherine had Juliana arrested for poisoning his mother.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 6.0,
+      "final_score": 5.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E013-A",
+      "id": "E013-B",
+      "kind": "single",
+      "duration_seconds": 29.3,
+      "segments": [
+        {
+          "episode": 13,
+          "start": "00:24.20",
+          "end": "00:53.50",
+          "start_seconds": 24.2,
+          "end_seconds": 53.5,
+          "length_seconds": 29.3
+        }
+      ],
+      "key_moment": "Juliana defies Alexander's pleas and enters a deadly briar patch to save him.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 8.0,
+      "final_score": 5.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X11",
+      "id": "E021-C",
+      "kind": "single",
+      "duration_seconds": 20.3,
+      "segments": [
+        {
+          "episode": 21,
+          "start": "00:30.90",
+          "end": "00:51.20",
+          "start_seconds": 30.9,
+          "end_seconds": 51.2,
+          "length_seconds": 20.3
+        }
+      ],
+      "key_moment": "Lady Juliana races to a village cottage to treat a suffocating child.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 6.0,
+      "final_score": 5.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E023-A",
+      "id": "E023-B",
+      "kind": "single",
+      "duration_seconds": 23.7,
+      "segments": [
+        {
+          "episode": 23,
+          "start": "01:00.80",
+          "end": "01:24.50",
+          "start_seconds": 60.8,
+          "end_seconds": 84.5,
+          "length_seconds": 23.7
+        }
+      ],
+      "key_moment": "Lady Juliana diagnoses the Duchess's symptoms and deduces she is being poisoned.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 6.0,
+      "final_score": 5.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X17",
+      "id": "E031-B",
+      "kind": "single",
+      "duration_seconds": 25.8,
+      "segments": [
+        {
+          "episode": 31,
+          "start": "01:38.20",
+          "end": "02:04.00",
+          "start_seconds": 98.2,
+          "end_seconds": 124.0,
+          "length_seconds": 25.8
+        }
+      ],
+      "key_moment": "Juliana challenges Catherine's arrogance after Catherine demands to know what she possesses.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 6.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E001-A",
+      "id": "E001-C",
+      "kind": "single",
+      "duration_seconds": 47.1,
+      "segments": [
+        {
+          "episode": 1,
+          "start": "01:12.40",
+          "end": "01:59.50",
+          "start_seconds": 72.4,
+          "end_seconds": 119.5,
+          "length_seconds": 47.1
+        }
+      ],
+      "key_moment": "A bride is abandoned by her father and humiliated by her family.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 7.0,
+      "final_score": 5.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E016-A",
+      "id": "E016-B",
+      "kind": "single",
+      "duration_seconds": 34.69,
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:48.50",
+          "end": "01:23.19",
+          "start_seconds": 48.5,
+          "end_seconds": 83.19,
+          "length_seconds": 34.69
+        }
+      ],
+      "key_moment": "Alexander releases the fleeing thugs and shares an intimate, tender exchange with Juliana.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E036-B",
+      "id": "X09",
+      "kind": "stitched",
+      "duration_seconds": 31.75,
+      "segments": [
+        {
+          "episode": 36,
+          "start": "01:57.00",
+          "end": "02:07.50",
+          "start_seconds": 117.0,
+          "end_seconds": 127.5,
+          "length_seconds": 10.5
+        },
+        {
+          "episode": 36,
+          "start": "02:59.50",
+          "end": "03:20.75",
+          "start_seconds": 179.5,
+          "end_seconds": 200.75,
+          "length_seconds": 21.25
+        }
+      ],
+      "key_moment": "Alexander learns Juliana is imprisoned and vows vengeance on his rivals.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E034-A",
+      "id": "E034-B",
+      "kind": "single",
+      "duration_seconds": 29.6,
+      "segments": [
+        {
+          "episode": 34,
+          "start": "00:07.80",
+          "end": "00:37.40",
+          "start_seconds": 7.8,
+          "end_seconds": 37.4,
+          "length_seconds": 29.6
+        }
+      ],
+      "key_moment": "Lady Juliana admits in court to using forbidden remedies to heal the sick.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 8.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E009-A",
+      "id": "X13",
+      "kind": "stitched",
+      "duration_seconds": 29.2,
+      "segments": [
+        {
+          "episode": 9,
+          "start": "00:05.50",
+          "end": "00:15.20",
+          "start_seconds": 5.5,
+          "end_seconds": 15.2,
+          "length_seconds": 9.7
+        },
+        {
+          "episode": 9,
+          "start": "01:08.50",
+          "end": "01:28.00",
+          "start_seconds": 68.5,
+          "end_seconds": 88.0,
+          "length_seconds": 19.5
+        }
+      ],
+      "key_moment": "Juliana treats a sick peasant child before a mysterious nobleman appears.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 4.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E023-A",
+      "id": "X20",
+      "kind": "stitched",
+      "duration_seconds": 28.7,
+      "segments": [
+        {
+          "episode": 23,
+          "start": "01:21.50",
+          "end": "01:31.00",
+          "start_seconds": 81.5,
+          "end_seconds": 91.0,
+          "length_seconds": 9.5
+        },
+        {
+          "episode": 24,
+          "start": "01:12.80",
+          "end": "01:32.00",
+          "start_seconds": 72.8,
+          "end_seconds": 92.0,
+          "length_seconds": 19.2
+        }
+      ],
+      "key_moment": "Juliana secretly conceals an antidote vial while scrubbing floors as a servant.",
+      "hook_score": 7.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X08",
+      "id": "E030-B",
+      "kind": "single",
+      "duration_seconds": 56.71,
+      "segments": [
+        {
+          "episode": 30,
+          "start": "01:34.50",
+          "end": "02:31.21",
+          "start_seconds": 94.5,
+          "end_seconds": 151.21,
+          "length_seconds": 56.71
+        }
+      ],
+      "key_moment": "Aristocrats conspire to frame Juliana for witchcraft while she shivers in prison.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E049-C",
+      "id": "E049-A",
+      "kind": "single",
+      "duration_seconds": 36.0,
+      "segments": [
+        {
+          "episode": 49,
+          "start": "01:43.80",
+          "end": "02:19.80",
+          "start_seconds": 103.8,
+          "end_seconds": 139.8,
+          "length_seconds": 36.0
+        }
+      ],
+      "key_moment": "Father Thomas agrees to spy on the church hearing for Catherine",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 5.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E015-A",
+      "id": "X01",
+      "kind": "stitched",
+      "duration_seconds": 29.8,
+      "segments": [
+        {
+          "episode": 15,
+          "start": "00:07.50",
+          "end": "00:18.80",
+          "start_seconds": 7.5,
+          "end_seconds": 18.8,
+          "length_seconds": 11.3
+        },
+        {
+          "episode": 15,
+          "start": "01:07.50",
+          "end": "01:26.00",
+          "start_seconds": 67.5,
+          "end_seconds": 86.0,
+          "length_seconds": 18.5
+        }
+      ],
+      "key_moment": "Alexander steps between three violent thugs and the injured Juliana.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 5.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E012-C",
+      "id": "X19",
+      "kind": "stitched",
+      "duration_seconds": 31.01,
+      "segments": [
+        {
+          "episode": 12,
+          "start": "00:11.80",
+          "end": "00:20.80",
+          "start_seconds": 11.8,
+          "end_seconds": 20.8,
+          "length_seconds": 9.0
+        },
+        {
+          "episode": 12,
+          "start": "01:05.20",
+          "end": "01:27.21",
+          "start_seconds": 65.2,
+          "end_seconds": 87.21,
+          "length_seconds": 22.01
+        }
+      ],
+      "key_moment": "Juliana accepts Clarissa's ultimatum to save Alexander from the gallows.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 5.0,
+      "final_score": 5.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E032-B",
+      "id": "E032-C",
+      "kind": "single",
+      "duration_seconds": 35.4,
+      "segments": [
+        {
+          "episode": 32,
+          "start": "00:19.00",
+          "end": "00:54.40",
+          "start_seconds": 19.0,
+          "end_seconds": 54.4,
+          "length_seconds": 35.4
+        }
+      ],
+      "key_moment": "Juliana tells Catherine that burning her book will not erase her knowledge.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 5.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X16",
+      "id": "E026-B",
+      "kind": "single",
+      "duration_seconds": 31.7,
+      "segments": [
+        {
+          "episode": 26,
+          "start": "00:30.80",
+          "end": "01:02.50",
+          "start_seconds": 30.8,
+          "end_seconds": 62.5,
+          "length_seconds": 31.7
+        }
+      ],
+      "key_moment": "Bedridden Duchess realizes her relatives are poisoning her.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 5.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E012-B",
+      "id": "E012-A",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 12,
+          "start": "00:23.70",
+          "end": "00:43.70",
+          "start_seconds": 23.7,
+          "end_seconds": 43.7,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Clarissa offers Juliana a mysterious way to escape Alexander's theft charges.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 5.0,
+      "final_score": 5.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E019-C",
+      "id": "E019-B",
+      "kind": "single",
+      "duration_seconds": 24.1,
+      "segments": [
+        {
+          "episode": 19,
+          "start": "01:01.40",
+          "end": "01:25.50",
+          "start_seconds": 61.4,
+          "end_seconds": 85.5,
+          "length_seconds": 24.1
+        }
+      ],
+      "key_moment": "Alexander's informant reveals his mother is imprisoned while enemies presume Alexander dead.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 9.0,
+      "standalone_score": 6.0,
+      "final_score": 5.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X17",
+      "id": "E031-C",
+      "kind": "single",
+      "duration_seconds": 48.7,
+      "segments": [
+        {
+          "episode": 31,
+          "start": "00:54.80",
+          "end": "01:43.50",
+          "start_seconds": 54.8,
+          "end_seconds": 103.5,
+          "length_seconds": 48.7
+        }
+      ],
+      "key_moment": "Juliana defends her choices while Catherine interrogates her in a dungeon.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 5.0,
+      "final_score": 5.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E021-B",
+      "id": "X02",
+      "kind": "stitched",
+      "duration_seconds": 27.1,
+      "segments": [
+        {
+          "episode": 21,
+          "start": "00:03.50",
+          "end": "00:11.20",
+          "start_seconds": 3.5,
+          "end_seconds": 11.2,
+          "length_seconds": 7.7
+        },
+        {
+          "episode": 21,
+          "start": "01:19.80",
+          "end": "01:39.20",
+          "start_seconds": 79.8,
+          "end_seconds": 99.2,
+          "length_seconds": 19.4
+        }
+      ],
+      "key_moment": "A village girl begs Juliana to save her dying brother.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 5.0,
+      "final_score": 5.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E002-C",
+      "id": "E002-B",
+      "kind": "single",
+      "duration_seconds": 46.5,
+      "segments": [
+        {
+          "episode": 2,
+          "start": "01:03.50",
+          "end": "01:50.00",
+          "start_seconds": 63.5,
+          "end_seconds": 110.0,
+          "length_seconds": 46.5
+        }
+      ],
+      "key_moment": "A rejected bride publicly scolds her former fiancé before the congregation.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 8.0,
+      "final_score": 5.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E038-A",
+      "id": "E038-B",
+      "kind": "single",
+      "duration_seconds": 33.5,
+      "segments": [
+        {
+          "episode": 38,
+          "start": "00:17.50",
+          "end": "00:51.00",
+          "start_seconds": 17.5,
+          "end_seconds": 51.0,
+          "length_seconds": 33.5
+        }
+      ],
+      "key_moment": "A guard secretly feeds the condemned Juliana in her cell.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 5.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E015-A",
+      "id": "E015-B",
+      "kind": "single",
+      "duration_seconds": 49.0,
+      "segments": [
+        {
+          "episode": 15,
+          "start": "00:07.50",
+          "end": "00:56.50",
+          "start_seconds": 7.5,
+          "end_seconds": 56.5,
+          "length_seconds": 49.0
+        }
+      ],
+      "key_moment": "Thugs crush Juliana's medicinal plants and shove her into the mud.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 7.0,
+      "final_score": 4.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E042-A",
+      "id": "E042-B",
+      "kind": "single",
+      "duration_seconds": 30.4,
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:00.00",
+          "end": "00:30.40",
+          "start_seconds": 0.0,
+          "end_seconds": 30.4,
+          "length_seconds": 30.4
+        }
+      ],
+      "key_moment": "Rupert orders the royal guards to arrest the returning Alexander.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 5.0,
+      "final_score": 4.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": false,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X16",
+      "id": "E027-C",
+      "kind": "single",
+      "duration_seconds": 27.2,
+      "segments": [
+        {
+          "episode": 27,
+          "start": "00:21.60",
+          "end": "00:48.80",
+          "start_seconds": 21.6,
+          "end_seconds": 48.8,
+          "length_seconds": 27.2
+        }
+      ],
+      "key_moment": "Duchess questions Juliana about her ring before doors are violently pounded.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 8.0,
+      "standalone_score": 4.0,
+      "final_score": 4.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X07",
+      "id": "E029-A",
+      "kind": "single",
+      "duration_seconds": 49.3,
+      "segments": [
+        {
+          "episode": 29,
+          "start": "00:56.60",
+          "end": "01:45.90",
+          "start_seconds": 56.6,
+          "end_seconds": 105.9,
+          "length_seconds": 49.3
+        }
+      ],
+      "key_moment": "Juliana is dragged into a dungeon cell after defying Catherine.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 4.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E039-A",
+      "id": "E039-C",
+      "kind": "single",
+      "duration_seconds": 25.0,
+      "segments": [
+        {
+          "episode": 39,
+          "start": "00:46.80",
+          "end": "01:11.80",
+          "start_seconds": 46.8,
+          "end_seconds": 71.8,
+          "length_seconds": 25.0
+        }
+      ],
+      "key_moment": "Alexander cuts his hair and dresses in his ducal uniform to reclaim his identity.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 7.0,
+      "final_score": 4.6,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E035-A",
+      "id": "E035-C",
+      "kind": "single",
+      "duration_seconds": 35.5,
+      "segments": [
+        {
+          "episode": 35,
+          "start": "02:02.00",
+          "end": "02:37.50",
+          "start_seconds": 122.0,
+          "end_seconds": 157.5,
+          "length_seconds": 35.5
+        }
+      ],
+      "key_moment": "Alexander tells his mother that the men who ambushed him now rule Ashwood.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 5.0,
+      "standalone_score": 5.0,
+      "final_score": 4.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": false
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E048-A",
+      "id": "E048-C",
+      "kind": "single",
+      "duration_seconds": 20.1,
+      "segments": [
+        {
+          "episode": 48,
+          "start": "00:26.70",
+          "end": "00:46.80",
+          "start_seconds": 26.7,
+          "end_seconds": 46.8,
+          "length_seconds": 20.1
+        }
+      ],
+      "key_moment": "Catherine instructs Agnes to exploit the household's grief while bailiffs surround the county",
+      "hook_score": 3.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 6.0,
+      "final_score": 4.5,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E016-A",
+      "id": "E016-C",
+      "kind": "single",
+      "duration_seconds": 22.1,
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:06.40",
+          "end": "00:28.50",
+          "start_seconds": 6.4,
+          "end_seconds": 28.5,
+          "length_seconds": 22.1
+        }
+      ],
+      "key_moment": "Alexander single-handedly beats down three armed thugs attacking Juliana in the garden.",
+      "hook_score": 5.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 6.0,
+      "final_score": 4.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E008-B",
+      "id": "E008-A",
+      "kind": "single",
+      "duration_seconds": 22.3,
+      "segments": [
+        {
+          "episode": 8,
+          "start": "00:15.00",
+          "end": "00:37.30",
+          "start_seconds": 15.0,
+          "end_seconds": 37.3,
+          "length_seconds": 22.3
+        }
+      ],
+      "key_moment": "Alexander grabs Juliana's wrist when she offers to trim his beard.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 6.0,
+      "standalone_score": 5.0,
+      "final_score": 4.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "X08",
+      "id": "E030-C",
+      "kind": "single",
+      "duration_seconds": 39.8,
+      "segments": [
+        {
+          "episode": 30,
+          "start": "00:00.00",
+          "end": "00:39.80",
+          "start_seconds": 0.0,
+          "end_seconds": 39.8,
+          "length_seconds": 39.8
+        }
+      ],
+      "key_moment": "Elder Nobleman confronts Rupert and demands he eliminate the imprisoned maid.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 7.0,
+      "standalone_score": 5.0,
+      "final_score": 4.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E040-B",
+      "id": "E040-C",
+      "kind": "single",
+      "duration_seconds": 24.7,
+      "segments": [
+        {
+          "episode": 40,
+          "start": "00:49.80",
+          "end": "01:14.50",
+          "start_seconds": 49.8,
+          "end_seconds": 74.5,
+          "length_seconds": 24.7
+        }
+      ],
+      "key_moment": "The elder nobleman confirms cathedral security is tight before the wedding proceeds.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 6.0,
+      "final_score": 4.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E035-A",
+      "id": "X12",
+      "kind": "stitched",
+      "duration_seconds": 32.4,
+      "segments": [
+        {
+          "episode": 35,
+          "start": "01:29.80",
+          "end": "01:41.20",
+          "start_seconds": 89.8,
+          "end_seconds": 101.2,
+          "length_seconds": 11.4
+        },
+        {
+          "episode": 36,
+          "start": "02:19.00",
+          "end": "02:40.00",
+          "start_seconds": 139.0,
+          "end_seconds": 160.0,
+          "length_seconds": 21.0
+        }
+      ],
+      "key_moment": "Alexander discovers Rupert and Catherine are getting married in two days.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 4.0,
+      "final_score": 4.0,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E033-B",
+      "id": "X18",
+      "kind": "stitched",
+      "duration_seconds": 31.44,
+      "segments": [
+        {
+          "episode": 33,
+          "start": "01:44.20",
+          "end": "01:53.80",
+          "start_seconds": 104.2,
+          "end_seconds": 113.8,
+          "length_seconds": 9.6
+        },
+        {
+          "episode": 33,
+          "start": "02:32.20",
+          "end": "02:54.04",
+          "start_seconds": 152.2,
+          "end_seconds": 174.04,
+          "length_seconds": 21.84
+        }
+      ],
+      "key_moment": "A ruthless lord blackmails a weeping maid into betraying Lady Juliana.",
+      "hook_score": 6.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 3.0,
+      "final_score": 3.9,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E010-A",
+      "id": "E010-B",
+      "kind": "single",
+      "duration_seconds": 38.5,
+      "segments": [
+        {
+          "episode": 10,
+          "start": "00:55.50",
+          "end": "01:34.00",
+          "start_seconds": 55.5,
+          "end_seconds": 94.0,
+          "length_seconds": 38.5
+        }
+      ],
+      "key_moment": "Alexander professes his devotion while Juliana treats his wounded shoulder.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 6.0,
+      "final_score": 3.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E020-A",
+      "id": "E020-C",
+      "kind": "single",
+      "duration_seconds": 26.2,
+      "segments": [
+        {
+          "episode": 20,
+          "start": "00:50.00",
+          "end": "01:16.20",
+          "start_seconds": 50.0,
+          "end_seconds": 76.2,
+          "length_seconds": 26.2
+        }
+      ],
+      "key_moment": "Seamus begs Juliana to stop endangering her health for ungrateful villagers.",
+      "hook_score": 3.0,
+      "cliffhanger_score": 4.0,
+      "standalone_score": 5.0,
+      "final_score": 3.7,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E047-B",
+      "id": "E047-C",
+      "kind": "single",
+      "duration_seconds": 24.5,
+      "segments": [
+        {
+          "episode": 47,
+          "start": "00:42.50",
+          "end": "01:07.00",
+          "start_seconds": 42.5,
+          "end_seconds": 67.0,
+          "length_seconds": 24.5
+        }
+      ],
+      "key_moment": "Alexander comforts his wife before Catherine arrives begging at the estate courtyard",
+      "hook_score": 3.0,
+      "cliffhanger_score": 3.0,
+      "standalone_score": 5.0,
+      "final_score": 3.4,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E038-A",
+      "id": "X04",
+      "kind": "stitched",
+      "duration_seconds": 30.91,
+      "segments": [
+        {
+          "episode": 37,
+          "start": "01:43.50",
+          "end": "01:53.50",
+          "start_seconds": 103.5,
+          "end_seconds": 113.5,
+          "length_seconds": 10.0
+        },
+        {
+          "episode": 38,
+          "start": "01:07.00",
+          "end": "01:27.91",
+          "start_seconds": 67.0,
+          "end_seconds": 87.91,
+          "length_seconds": 20.91
+        }
+      ],
+      "key_moment": "Juliana hears distant wedding bells from her dungeon cell.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 3.0,
+      "final_score": 3.2,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E007-B",
+      "id": "E007-C",
+      "kind": "single",
+      "duration_seconds": 24.5,
+      "segments": [
+        {
+          "episode": 7,
+          "start": "01:31.50",
+          "end": "01:56.00",
+          "start_seconds": 91.5,
+          "end_seconds": 116.0,
+          "length_seconds": 24.5
+        }
+      ],
+      "key_moment": "Juliana thanks her scarred husband after he frightens their tormentors away.",
+      "hook_score": 4.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 4.0,
+      "final_score": 3.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E017-A",
+      "id": "E017-B",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 17,
+          "start": "00:11.50",
+          "end": "00:31.50",
+          "start_seconds": 11.5,
+          "end_seconds": 31.5,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Alexander promises Juliana that no one will ever hurt her again.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 2.0,
+      "standalone_score": 6.0,
+      "final_score": 2.8,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E008-B",
+      "id": "E008-C",
+      "kind": "single",
+      "duration_seconds": 20.9,
+      "segments": [
+        {
+          "episode": 8,
+          "start": "00:57.10",
+          "end": "01:18.00",
+          "start_seconds": 57.1,
+          "end_seconds": 78.0,
+          "length_seconds": 20.9
+        }
+      ],
+      "key_moment": "Juliana finds peace with Alexander despite losing her former wealth.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 5.0,
+      "final_score": 2.3,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    },
+    {
+      "rank": null,
+      "status": "overlap",
+      "replaced_by": "E014-A",
+      "id": "E014-C",
+      "kind": "single",
+      "duration_seconds": 20.0,
+      "segments": [
+        {
+          "episode": 14,
+          "start": "00:43.50",
+          "end": "01:03.50",
+          "start_seconds": 43.5,
+          "end_seconds": 63.5,
+          "length_seconds": 20.0
+        }
+      ],
+      "key_moment": "Alexander tenderly bandages Juliana's torn hands beside the fireplace.",
+      "hook_score": 2.0,
+      "cliffhanger_score": 1.0,
+      "standalone_score": 4.0,
+      "final_score": 2.1,
+      "checks": {
+        "hook_line_found": true,
+        "hook_in_first_3s": true,
+        "cliffhanger_line_found": true,
+        "cliffhanger_at_end": true
+      }
+    }
+  ]
+}
