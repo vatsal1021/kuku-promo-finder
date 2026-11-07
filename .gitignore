@@ -1,0 +1,22 @@
+# Confidential Kuku content: the screenplays and anything parsed from them
+data/scripts/
+data/parsed/
+outputs/
+raw_outputs/
+*.zip
+
+# Assignment brief
+*.pdf
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Desktop app launch config
+.claude/
